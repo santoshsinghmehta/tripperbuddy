@@ -21,3 +21,11 @@
 	margin-top: 15px;
 }
 
+@media(max-width:400px){
+	.nav navbar-nav{
+		display:flex;
+		flex-direction:row;
+
+	}
+
+}
