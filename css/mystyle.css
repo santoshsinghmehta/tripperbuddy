@@ -1,0 +1,23 @@
+ .top_bar{
+ 	background-color: #4267B2;
+ }
+
+.social_icons{
+	margin-right: 12px;
+}
+
+.contact{
+	color: #fff;
+}
+
+.my_menu{
+	margin-top: 5px;
+	font-size: 17px;
+
+}
+
+.search-form{
+	/*padding: 15px;*/
+	margin-top: 15px;
+}
+
