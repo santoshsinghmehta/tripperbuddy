@@ -16,16 +16,29 @@
 
 }
 
+.my_menu .navbar-default{
+	background: none;
+	border: none;
+}
+.my_menu .navbar-nav .active a, .my_menu .navbar-nav .active a:hover{
+	background: #4267B2;
+	color: white;
+}
+
+.my_menu .navbar-nav li a:hover{background: #4267B2; color: white;}
+
+@media (max-width:1200px){
+	.my_menu .pull-right{
+		float: none !important; }
+}
 .search-form{
 	/*padding: 15px;*/
 	margin-top: 15px;
 }
 
-@media(max-width:400px){
-	.nav navbar-nav{
-		display:flex;
-		flex-direction:row;
 
-	}
 
+
+.search{
+	padding: 70px;
 }
