@@ -11,7 +11,7 @@
 }
 
 .my_menu{
-	/*margin-top: 5px;*/
+	margin-top: 5px;
 	font-size: 17px;
 
 }
@@ -31,6 +31,14 @@
 	.my_menu .pull-right{
 		float: none !important; }
 }
+
+@media(max-width: 1200px){
+	.navbar-toggle{
+		position: relative;
+		bottom: 90px;
+	}
+}
+
 .search-form{
 	/*padding: 15px;*/
 	margin-top: 15px;
